@@ -106,7 +106,7 @@
 
 #define DEAD_BEEF 0xDEADBEEF /**< Value used as error code on stack dump, can be used to identify stack location on stack unwind. */
 #define SAMPLES_IN_BUFFER 1
-#define SAADC_CALIBRATION_INTERVAL 15 //Determines how often the SAADC should be calibrated relative to NRF_DRV_SAADC_EVT_DONE event. E.g. value 5 will make the SAADC calibrate every fifth time the NRF_DRV_SAADC_EVT_DONE is received.
+#define SAADC_CALIBRATION_INTERVAL 12 //Determines how often the SAADC should be calibrated relative to NRF_DRV_SAADC_EVT_DONE event. E.g. value 5 will make the SAADC calibrate every fifth time the NRF_DRV_SAADC_EVT_DONE is received.
 
 static nrf_saadc_value_t m_buffer[SAMPLES_IN_BUFFER];
 static int32_t raw_val = 0;
