@@ -1,7 +1,7 @@
 Output/nRF52832_temperature_board\ Debug/Obj/main.o: \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\examples\Projects\nRF52832_temperature_board\main.c \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\examples\Projects\nRF52832_temperature_board\our_service.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdint.h \
+ /home/emil/nRF_SDK/SDK15/examples/Projects/nRF52832-Temperature-board/main.c \
+ /home/emil/nRF_SDK/SDK15/examples/Projects/nRF52832-Temperature-board/our_service.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
@@ -27,18 +27,18 @@ Output/nRF52832_temperature_board\ Debug/Obj/main.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatts.h \
  ../../../../../../components/ble/common/ble_srv_common.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdbool.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdbool.h \
  ../../../../../../components/softdevice/s132/headers/ble_types.h \
  ../../../../../../components/libraries/util/app_util.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stddef.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/__crossworks.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stddef.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/__crossworks.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/softdevice/s132/headers/ble_gap.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatt.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/math.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdio.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/string.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/math.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdio.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/string.h \
  ../../../../../../components/libraries/util/app_error.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
@@ -115,6 +115,6 @@ Output/nRF52832_temperature_board\ Debug/Obj/main.o: \
  ../../../../../../components/libraries/experimental_log/src/nrf_log_ctrl_internal.h \
  ../../../../../../components/libraries/experimental_log/nrf_log_backend_interface.h \
  ../../../../../../components/libraries/experimental_memobj/nrf_memobj.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdlib.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdlib.h \
  ../../../../../../components/libraries/balloc/nrf_balloc.h \
  ../../../../../../components/libraries/experimental_log/nrf_log_default_backends.h

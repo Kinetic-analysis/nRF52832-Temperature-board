@@ -1,11 +1,11 @@
 Output/nRF52832_temperature_board\ Debug/Obj/nrf_atfifo.o: \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\components\libraries\atomic_fifo\nrf_atfifo.c \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/string.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/__crossworks.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdint.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdbool.h \
+ /home/emil/nRF_SDK/SDK15/components/libraries/atomic_fifo/nrf_atfifo.c \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/string.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/__crossworks.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdint.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdbool.h \
  ../../../../../../components/libraries/util/app_util.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stddef.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stddef.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
@@ -20,7 +20,7 @@ Output/nRF52832_temperature_board\ Debug/Obj/nrf_atfifo.o: \
  ../../../../../../modules/nrfx/mdk/nrf51_to_nrf52.h \
  ../../../../../../modules/nrfx/mdk/nrf52_name_change.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\components\libraries\atomic_fifo\nrf_atfifo.h \
+ /home/emil/nRF_SDK/SDK15/components/libraries/atomic_fifo/nrf_atfifo.h \
  ../config/sdk_config.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
@@ -29,7 +29,7 @@ Output/nRF52832_temperature_board\ Debug/Obj/nrf_atfifo.o: \
  ../../../../../../components/libraries/experimental_log/nrf_log_instance.h \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/experimental_log/nrf_log_types.h \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\components\libraries\atomic_fifo\nrf_atfifo_internal.h \
+ /home/emil/nRF_SDK/SDK15/components/libraries/atomic_fifo/nrf_atfifo_internal.h \
  ../../../../../../components/libraries/experimental_log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \
  ../../../../../../components/libraries/util/sdk_os.h \

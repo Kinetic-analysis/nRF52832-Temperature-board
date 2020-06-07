@@ -1,10 +1,10 @@
 Output/nRF52832_temperature_board\ Debug/Obj/nrf_log_backend_serial.o: \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\components\libraries\experimental_log\src\nrf_log_backend_serial.c \
+ /home/emil/nRF_SDK/SDK15/components/libraries/experimental_log/src/nrf_log_backend_serial.c \
  ../../../../../../components/libraries/util/sdk_common.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdint.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdbool.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/string.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/__crossworks.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdint.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdbool.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/string.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/__crossworks.h \
  ../config/sdk_config.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
@@ -12,7 +12,7 @@ Output/nRF52832_temperature_board\ Debug/Obj/nrf_log_backend_serial.o: \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/libraries/util/app_util.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stddef.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stddef.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52.h \
  ../../../../../../components/toolchain/cmsis/include/core_cm4.h \
@@ -27,10 +27,10 @@ Output/nRF52832_temperature_board\ Debug/Obj/nrf_log_backend_serial.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\components\libraries\experimental_log\src\nrf_log_backend_serial.h \
+ /home/emil/nRF_SDK/SDK15/components/libraries/experimental_log/src/nrf_log_backend_serial.h \
  ../../../../../../components/libraries/experimental_log/nrf_log_backend_interface.h \
  ../../../../../../components/libraries/experimental_memobj/nrf_memobj.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdlib.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdlib.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/libraries/balloc/nrf_balloc.h \
  ../../../../../../components/libraries/util/app_util_platform.h \
@@ -40,7 +40,7 @@ Output/nRF52832_temperature_board\ Debug/Obj/nrf_log_backend_serial.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
  ../../../../../../components/libraries/util/app_error.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdio.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdio.h \
  ../../../../../../components/libraries/util/app_error_weak.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../components/libraries/experimental_log/nrf_log_instance.h \
@@ -52,5 +52,5 @@ Output/nRF52832_temperature_board\ Debug/Obj/nrf_log_backend_serial.o: \
  ../../../../../../components/libraries/experimental_log/nrf_log_ctrl.h \
  ../../../../../../components/libraries/experimental_log/src/nrf_log_ctrl_internal.h \
  ../../../../../../components/libraries/experimental_log/nrf_log_backend_interface.h \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\components\libraries\experimental_log\src\nrf_log_internal.h \
+ /home/emil/nRF_SDK/SDK15/components/libraries/experimental_log/src/nrf_log_internal.h \
  ../../../../../../components/libraries/experimental_log/nrf_log_types.h

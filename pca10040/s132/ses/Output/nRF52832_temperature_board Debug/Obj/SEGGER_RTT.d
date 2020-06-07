@@ -1,10 +1,10 @@
 Output/nRF52832_temperature_board\ Debug/Obj/SEGGER_RTT.o: \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\external\segger_rtt\SEGGER_RTT.c \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\external\segger_rtt\SEGGER_RTT.h \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\external\segger_rtt\SEGGER_RTT_Conf.h \
+ /home/emil/nRF_SDK/SDK15/external/segger_rtt/SEGGER_RTT.c \
+ /home/emil/nRF_SDK/SDK15/external/segger_rtt/SEGGER_RTT.h \
+ /home/emil/nRF_SDK/SDK15/external/segger_rtt/SEGGER_RTT_Conf.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/util/app_util_platform.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdint.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52.h \
@@ -25,12 +25,12 @@ Output/nRF52832_temperature_board\ Debug/Obj/SEGGER_RTT.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/util/app_error.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdio.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/__crossworks.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdbool.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdio.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/__crossworks.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdbool.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/util/app_error_weak.h \
  ../config/sdk_config.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/string.h
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/string.h

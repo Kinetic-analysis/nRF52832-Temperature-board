@@ -1,7 +1,7 @@
 Output/nRF52832_temperature_board\ Debug/Obj/bsp_btn_ble.o: \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\components\libraries\bsp\bsp_btn_ble.c \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\components\libraries\bsp\bsp_btn_ble.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdint.h \
+ /home/emil/nRF_SDK/SDK15/components/libraries/bsp/bsp_btn_ble.c \
+ /home/emil/nRF_SDK/SDK15/components/libraries/bsp/bsp_btn_ble.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
@@ -26,15 +26,15 @@ Output/nRF52832_temperature_board\ Debug/Obj/bsp_btn_ble.o: \
  ../../../../../../modules/nrfx/mdk/nrf52_name_change.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatts.h \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\components\libraries\bsp\bsp.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdbool.h \
+ /home/emil/nRF_SDK/SDK15/components/libraries/bsp/bsp.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdbool.h \
  ../../../../../../components/boards/boards.h \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stddef.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/__crossworks.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stddef.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/__crossworks.h \
  ../../../../../../modules/nrfx/mdk/nrf_peripherals.h \
  ../../../../../../modules/nrfx/mdk/nrf52832_peripherals.h \
  ../../../../../../integration/nrfx/nrfx_glue.h \
@@ -52,7 +52,7 @@ Output/nRF52832_temperature_board\ Debug/Obj/bsp_btn_ble.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/util/app_error.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdio.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdio.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/libraries/util/app_error_weak.h \

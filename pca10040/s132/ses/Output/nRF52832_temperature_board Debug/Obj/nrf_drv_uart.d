@@ -1,13 +1,13 @@
 Output/nRF52832_temperature_board\ Debug/Obj/nrf_drv_uart.o: \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\integration\nrfx\legacy\nrf_drv_uart.c \
- C:\Users\Lawson\ sports\Documents\Emil\nrfSDK\SDK_V15\integration\nrfx\legacy\nrf_drv_uart.h \
+ /home/emil/nRF_SDK/SDK15/integration/nrfx/legacy/nrf_drv_uart.c \
+ /home/emil/nRF_SDK/SDK15/integration/nrfx/legacy/nrf_drv_uart.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdint.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stddef.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/__crossworks.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdbool.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdint.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stddef.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/__crossworks.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdbool.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52.h \
  ../../../../../../components/toolchain/cmsis/include/core_cm4.h \
@@ -39,7 +39,7 @@ Output/nRF52832_temperature_board\ Debug/Obj/nrf_drv_uart.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/util/app_error.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 4.52c/include/stdio.h \
+ /usr/share/segger_embedded_studio_for_arm_4.52b/include/stdio.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/libraries/util/app_error_weak.h \
