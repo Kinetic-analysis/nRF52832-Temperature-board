@@ -79,7 +79,7 @@
 #include "our_service.h"
 
 #define DEVICE_NAME "Temperature Board 1"     /**< Name of device. Will be included in the advertising data. */
-#define MANUFACTURER_NAME "Crespo group KTH" /**< Manufacturer. Will be passed to Device Information Service. */
+#define MANUFACTURER_NAME "Chemical Sensing Group KTH" /**< Manufacturer. Will be passed to Device Information Service. */
 #define APP_ADV_INTERVAL 300                 /**< The advertising interval (in units of 0.625 ms. This value corresponds to 187.5 ms). */
 
 #define APP_ADV_DURATION 18000  /**< The advertising duration (180 seconds) in units of 10 milliseconds. */
@@ -127,9 +127,9 @@ ble_os_t m_our_service;
 
 // Declare two app_timer id variables and define our timer intervals
 APP_TIMER_DEF(m_our_char_timer_id);
-#define OUR_CHAR_TIMER_INTERVAL APP_TIMER_TICKS(500) //500 ms intervals
+#define OUR_CHAR_TIMER_INTERVAL APP_TIMER_TICKS(500) //Send data to the Smartphone every 500ms
 APP_TIMER_DEF(m_saadc_timer);
-#define SAADC_TIMER_INTERVAL APP_TIMER_TICKS(450)
+#define SAADC_TIMER_INTERVAL APP_TIMER_TICKS(450) // Sample the ADC every 450ms
 
 // Use UUIDs for service(s) used in your application.
 static ble_uuid_t m_adv_uuids[] = /**< Universally unique service identifiers. */
@@ -181,14 +181,14 @@ void saadc_callback(nrf_drv_saadc_evt_t const *p_event) {
 // Timer event handler
 static void timer_timeout_handler(void *p_context) {
 
-  voltage = raw_val / 1137.77777778f;
-  resistance = voltage / (1.66f * pow(10, -6));
+  voltage = raw_val / 1137.77777778f; // 12 bit resolution and 3.6V internal reference for the ADC
+  resistance = voltage / (1.66f * pow(10, -6)); // We apply a constant 1.65 micro ampere to the sensor
 
   NRF_LOG_INFO("Raw value: %d\r\n", raw_val);
   NRF_LOG_INFO("Voltage: " NRF_LOG_FLOAT_MARKER "\r\n", NRF_LOG_FLOAT(voltage));
   NRF_LOG_INFO("Resistance: %d\r\n", resistance);
 
-  our_resistance_characteristic_update(&m_our_service, &resistance);
+  our_resistance_characteristic_update(&m_our_service, &resistance); // send the data though BLE
 }
 
 // SAADC timer timeout handler
