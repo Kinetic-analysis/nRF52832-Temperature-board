@@ -108,8 +108,11 @@
 #define SAMPLES_IN_BUFFER 1
 #define SAADC_CALIBRATION_INTERVAL 30 //Determines how often the SAADC should be calibrated relative to NRF_DRV_SAADC_EVT_DONE event. E.g. value 5 will make the SAADC calibrate every fifth time the NRF_DRV_SAADC_EVT_DONE is received.
 
+#define ALPHA 0.05 // Alpha value for the Exponential Weighted Moving Average (EWMA) Filter, lower value = more smoothing
+
 static nrf_saadc_value_t m_buffer[SAMPLES_IN_BUFFER];
 static int32_t raw_val = 0;
+static int32_t raw_val_old = 0;
 static float voltage = 0;
 static int32_t resistance = 0;
 
@@ -168,7 +171,8 @@ void saadc_callback(nrf_drv_saadc_evt_t const *p_event) {
     if (m_saadc_calibrate == false) {
       err_code = nrf_drv_saadc_buffer_convert(p_event->data.done.p_buffer, SAMPLES_IN_BUFFER);
       APP_ERROR_CHECK(err_code);
-      raw_val = p_event->data.done.p_buffer[0]; // Set the raw value from the saadc buffer
+      raw_val = raw_val_old + ALPHA * ((p_event->data.done.p_buffer[0]) - raw_val_old); // Set the raw value from the saadc buffer and apply EWMA filter
+      raw_val_old = raw_val;
     }
     m_adc_evt_counter++;
   } else if (p_event->type == NRF_DRV_SAADC_EVT_CALIBRATEDONE) {
