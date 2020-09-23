@@ -182,7 +182,7 @@ void saadc_callback(nrf_drv_saadc_evt_t const *p_event) {
 static void timer_timeout_handler(void *p_context) {
 
   voltage = raw_val / 1137.77777778f; // 12 bit resolution and 3.6V internal reference for the ADC
-  resistance = voltage / (1.66f * pow(10, -6)); // We apply a constant 1.65 micro ampere to the sensor
+  resistance = voltage / (1.65f * pow(10, -6)); // We apply a constant 1.65 micro ampere to the sensor
 
   NRF_LOG_INFO("Raw value: %d\r\n", raw_val);
   NRF_LOG_INFO("Voltage: " NRF_LOG_FLOAT_MARKER "\r\n", NRF_LOG_FLOAT(voltage));
