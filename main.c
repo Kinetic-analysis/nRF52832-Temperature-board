@@ -127,9 +127,9 @@ ble_os_t m_our_service;
 
 // Declare two app_timer id variables and define our timer intervals
 APP_TIMER_DEF(m_our_char_timer_id);
-#define OUR_CHAR_TIMER_INTERVAL APP_TIMER_TICKS(500) //Send data to the Smartphone every 500ms
+#define OUR_CHAR_TIMER_INTERVAL APP_TIMER_TICKS(1000) //Send data to the Smartphone every 500ms
 APP_TIMER_DEF(m_saadc_timer);
-#define SAADC_TIMER_INTERVAL APP_TIMER_TICKS(450) // Sample the ADC every 450ms
+#define SAADC_TIMER_INTERVAL APP_TIMER_TICKS(100) // Sample the ADC every 450ms
 
 // Use UUIDs for service(s) used in your application.
 static ble_uuid_t m_adv_uuids[] = /**< Universally unique service identifiers. */
